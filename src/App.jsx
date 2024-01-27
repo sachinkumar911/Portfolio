@@ -1,6 +1,10 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
-import{Home, About,Projects,Contact} from "../src/pages"
+import Home from "../src/pages/Home";
+import About from "../src/pages/About";
+import Projects from "../src/pages/Projects";
+import Contact from "../src/pages/Contact";
+
 import Navbar from "./component/Navbar";
 
 function App() {
